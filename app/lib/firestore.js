@@ -27,7 +27,7 @@ export const getAllFoodListings = async () => {
 };
 
 export const getUserFoodListings = async (userId) => {
-  // First get all listings for the user
+
   const q = query(
     collection(db, "foodListings"),
     where("userId", "==", userId)
@@ -37,7 +37,6 @@ export const getUserFoodListings = async (userId) => {
   querySnapshot.forEach((doc) => {
     listings.push({ id: doc.id, ...doc.data() });
   });
-  // Sort in memory instead of using orderBy
   return listings.sort((a, b) => b.createdAt - a.createdAt);
 };
 
