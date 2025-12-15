@@ -1,3 +1,7 @@
+/*
+ * Authentication utilities for BiteBuddy.
+ * Handles Google sign-in and sign-out operations using Firebase Auth.
+ */
 import { auth } from "./firebase";
 import { GoogleAuthProvider, signInWithPopup, signOut as firebaseSignOut } from "firebase/auth";
 

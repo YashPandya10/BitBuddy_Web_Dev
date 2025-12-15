@@ -1,3 +1,8 @@
+/*
+ * Root layout component for the BiteBuddy Next.js application.
+ * Provides global styles, authentication context, navigation bar, and Google Maps integration.
+ * eslint-disable react/jsx-no-undef
+ */
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { AuthProvider } from "./context/AuthContext";

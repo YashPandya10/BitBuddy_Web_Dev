@@ -1,3 +1,7 @@
+/*
+ * Add Listing page component for BiteBuddy.
+ * Allows authenticated users to create new food listings with a form and map selection.
+ */
 "use client";
 import { useState } from "react";
 import { useRouter } from "next/navigation";

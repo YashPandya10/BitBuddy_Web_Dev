@@ -1,3 +1,7 @@
+/*
+ * FoodListingCard component for BiteBuddy.
+ * Displays individual food listing details with image, location, and optional action buttons.
+ */
 "use client";
 import { MapPin, User, Trash2, Edit } from "lucide-react";
 

@@ -1,3 +1,7 @@
+/*
+ * FoodListingForm component for BiteBuddy.
+ * Provides a form for users to input food listing details including name, description, and image selection.
+ */
 "use client";
 import { useState } from "react";
 

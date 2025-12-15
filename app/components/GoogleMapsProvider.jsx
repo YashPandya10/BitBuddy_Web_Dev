@@ -1,3 +1,7 @@
+/*
+ * GoogleMapsProvider component for BiteBuddy.
+ * Wraps the app with Google Maps API script loading for map functionality.
+ */
 "use client";
 import { LoadScript } from "@react-google-maps/api";
 

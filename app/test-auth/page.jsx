@@ -1,3 +1,7 @@
+/*
+ * Test Auth page component for BiteBuddy.
+ * Provides a testing interface for Firebase authentication functionality.
+ */
 "use client";
 import { useState } from "react";
 import { auth } from "../lib/firebase";

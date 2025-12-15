@@ -1,3 +1,7 @@
+/*
+ * Map component for BiteBuddy.
+ * Displays an interactive Google Map with markers for food listings and info windows.
+ */
 "use client";
 import { useState, useCallback } from "react";
 import { GoogleMap, Marker, InfoWindow } from "@react-google-maps/api";

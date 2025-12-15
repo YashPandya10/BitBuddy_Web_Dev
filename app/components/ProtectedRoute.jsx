@@ -1,3 +1,7 @@
+/*
+ * ProtectedRoute component for BiteBuddy.
+ * Ensures only authenticated users can access certain pages by redirecting unauthenticated users.
+ */
 "use client";
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";

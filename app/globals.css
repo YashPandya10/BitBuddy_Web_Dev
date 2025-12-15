@@ -1,3 +1,7 @@
+/*
+ * Global CSS styles for the BiteBuddy application.
+ * Includes Tailwind CSS imports and custom theme variables.
+ */
 @import "tailwindcss";
 
 :root {

@@ -1,3 +1,7 @@
+/*
+ * Home page component for BiteBuddy.
+ * Displays a map and a list of food listings fetched from Firestore.
+ */
 "use client";
 import { useState, useEffect } from "react";
 import Map from "./components/Map";

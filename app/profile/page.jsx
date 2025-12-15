@@ -1,3 +1,7 @@
+/*
+ * Profile page component for BiteBuddy.
+ * Displays user's food listings with options to view, edit, or delete them.
+ */
 "use client";
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";

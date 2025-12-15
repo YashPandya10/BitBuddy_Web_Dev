@@ -1,3 +1,7 @@
+/*
+ * AuthContext for BiteBuddy.
+ * Manages user authentication state and provides sign-in/sign-out functionality using Firebase.
+ */
 "use client";
 
 import { createContext, useContext, useState, useEffect } from "react";

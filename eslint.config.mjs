@@ -1,3 +1,7 @@
+/*
+ * ESLint configuration for BiteBuddy.
+ * Defines linting rules and ignores for the Next.js project.
+ */
 import { defineConfig, globalIgnores } from "eslint/config";
 import nextVitals from "eslint-config-next/core-web-vitals";
 

@@ -1,3 +1,7 @@
+/*
+ * Navbar component for BiteBuddy.
+ * Provides navigation links and user authentication controls.
+ */
 "use client";
 import Link from "next/link";
 import { useAuth } from "../context/AuthContext";

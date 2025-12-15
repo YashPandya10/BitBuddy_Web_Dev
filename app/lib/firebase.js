@@ -1,3 +1,7 @@
+/*
+ * Firebase configuration and initialization for BiteBuddy.
+ * Sets up Firebase app, authentication, and Firestore database.
+ */
 import { initializeApp, getApps } from "firebase/app";
 import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";

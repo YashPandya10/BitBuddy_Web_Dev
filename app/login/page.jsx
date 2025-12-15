@@ -1,3 +1,7 @@
+/*
+ * Login page component for BiteBuddy.
+ * Allows users to sign in with Google authentication.
+ */
 "use client";
 import { useAuth } from "../context/AuthContext";
 

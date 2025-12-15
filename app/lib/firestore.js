@@ -1,3 +1,7 @@
+/*
+ * Firestore database operations for BiteBuddy.
+ * Provides functions to add, retrieve, update, and delete food listings.
+ */
 import { db } from "./firebase";
 import { 
   collection, 
